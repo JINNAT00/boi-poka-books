@@ -10,6 +10,9 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
 import BookDetail from './components/BookDetail/BookDetail';
+import SignUp from './components/signUp/signup';
+import SignIn from './components/signIn/signIn';
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,15 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>,
       },
+      {
+        path: 'signUp/signUp',
+        element: <SignUp></SignUp>,
+      },
+      {
+        path: 'signIn/signIn',
+        element: <SignIn></SignIn>,
+      },
+      
       {
         path: 'books/bookId',
         element: <BookDetail></BookDetail>,

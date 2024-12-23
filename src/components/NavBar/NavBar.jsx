@@ -42,8 +42,8 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-x-2">
-          <a className="btn bg-[#23BE0A]">Sign In</a>
-          <a className="btn bg-[#59C6D2]">Sign Up</a>
+          <NavLink to="signIn/signIn" className="btn bg-[#23BE0A]">Sign In</NavLink>
+          <NavLink to="signUp/signUp" className="btn bg-[#59C6D2]">Sign Up</NavLink>
         </div>
       </div>
     );
